@@ -48,11 +48,7 @@
 
 	var $ = __webpack_require__(1);
 
-	alert("ABC321");
-
-	$("h1").remove();
-
-	console.log();
+	console.log("Javascript");
 
 /***/ },
 /* 1 */

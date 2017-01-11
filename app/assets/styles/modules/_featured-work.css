@@ -1,0 +1,30 @@
+.featured-work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__header {
+        padding: 10px 0 5px 0;
+        color: grey;
+        font-size: 1.5rem;
+
+    }
+
+    &__project {
+        flex-align: column;
+
+        &__img {
+
+        }
+
+        &__title {
+
+        }
+
+        &__url {
+            font-size: 0.625rem;
+        }
+
+
+    }
+}

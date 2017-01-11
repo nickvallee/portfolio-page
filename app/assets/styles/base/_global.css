@@ -1,3 +1,10 @@
-body {
-    font-family: sans-serif;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
 }

@@ -1,20 +1,9 @@
+@import "normalize.css";
 @import "base/_global";
 @import "base/_variables";
 @import "base/_mixins";
+@import "modules/_header";
+@import "modules/_large-image-section";
+@import "modules/_featured-work";
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
 
-p {
-    padding: 10px;
-}
-
-
-.my-div {
-    background-color: $mainOrange;
-}
-
-h1 {
-    color: blue;
-
-    @mixin atSmall {
-        color: red;
-    }
-}

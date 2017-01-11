@@ -3,25 +3,21 @@
         @mixin-content;
     }
 }
-
 @define-mixin atSmallMedium {
-     @media (min-width: 900px) {
+    @media (min-width: 900px) {
         @mixin-content;
     }
 }
-
 @define-mixin atMedium {
-     @media (min-width: 990px) {
+    @media (min-width: 990px) {
         @mixin-content;
     }
 }
-
 @define-mixin atLarge {
-     @media (min-width: 1500px) {
+    @media (min-width: 1500px) {
         @mixin-content;
     }
 }
-
 @define-mixin clearfix {
     &::after {
         content: "";

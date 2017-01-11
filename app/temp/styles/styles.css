@@ -273,7 +273,7 @@ menu {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }/* fontelico */[class*="fontelico-"]:before {
-  font-family: 'fontelico', sans-serif;
+    font-family: 'fontelico', sans-serif;
 }.header {
     overflow: hidden;
     width: 100%;
@@ -290,7 +290,6 @@ menu {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-
 }/*AT LARGE: padding for log and name so they alig
                 with image
     */@media (min-width: 990px){.header{
@@ -323,20 +322,10 @@ menu {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    max-width: 870px;
-
     /*TODO: top padding at largr sizes*/
-}@media (min-width: 1500px){.large-image-section{
-    max-width: 1100px;
-  }
 }.large-image {
     width: 100%;
-    max-width: 870px;
     text-align: center;
-
-}@media (min-width: 1500px){.large-image{
-    max-width: 1100px;
-  }
 }.featured-work-title {
     display: block;
     text-align: center;
@@ -353,16 +342,6 @@ menu {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
-}@media (min-width: 900px){.featured-work{
-    max-width: 900px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin: auto;
-    margin: auto;
-  }
-}@media (min-width: 1500px){.featured-work{
-    max-width: 1200px;
-  }
 }/*TODO: mixin making */.featured-work__project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,13 +353,19 @@ menu {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 7.5px 7.5px 7.5px 7.5px;
 }.featured-work__project__img {
   width: 100%;
-  border: ;
 }.featured-work__project__title {
   margin: 5px 0 0 0;
 }.featured-work__project__url {
   font-size: 0.625rem;
+}.main-content {
+    max-width: 870px;
+    margin-right: auto;
+    margin-left: auto;
+}@media (min-width: 1500px){.main-content{
+    max-width: 1100px;
+  }
 }
 

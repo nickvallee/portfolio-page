@@ -323,6 +323,9 @@ menu {
     margin-left: auto;
     width: 100%;
     /*TODO: top padding at largr sizes*/
+}@media (min-width: 610px){.large-image-section{
+    margin-top: 20px;
+  }
 }.large-image {
     width: 100%;
     text-align: center;

@@ -274,7 +274,7 @@ menu {
     font-family: 'Raleway', sans-serif;
 }/* fontelico */[class*="fontelico-"]:before {
     font-family: 'fontelico', sans-serif;
-}.header {
+}/*SECTION MIN_WIDTH MIXINS *//*SECTION MAX_WIDTH MIXINS */.header {
     overflow: hidden;
     width: 100%;
     height: 70px;
@@ -335,7 +335,11 @@ menu {
     color: grey;
     font-size: 1.5rem;
     margin: 20px 0 15px 0;
+}@media (max-width: 600px){.featured-work-title{
+    font-size: 2rem;
+  }
 }.featured-work {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -344,8 +348,7 @@ menu {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 100%;
-}/*TODO: mixin making */.featured-work__project {
+}.featured-work__project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,12 +360,23 @@ menu {
   margin-left: auto;
   margin-right: auto;
   padding: 7.5px 7.5px 7.5px 7.5px;
+}@media (max-width: 600px){.featured-work__project{
+    display: block;
+    width: 100%;
+  }
 }.featured-work__project__img {
   width: 100%;
 }.featured-work__project__title {
   margin: 5px 0 0 0;
+}@media (max-width: 600px){.featured-work__project__title{
+    font-size: 2rem;
+  }
 }.featured-work__project__url {
-  font-size: 0.625rem;
+  font-size: 1rem;
+  color: grey;
+}@media (max-width: 600px){.featured-work__project__url{
+    font-size: 1.5rem;
+  }
 }.main-content {
     max-width: 870px;
     margin-right: auto;

@@ -4,13 +4,18 @@
     color: grey;
     font-size: 1.5rem;
     margin: 20px 0 15px 0;
+
+    @mixin atMobile {
+        font-size: 2rem;
+    }
 }
 .featured-work {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    /*TODO: mixin making */
+
+
 
     &__project {
         display: flex;
@@ -19,14 +24,38 @@
         margin-left: auto;
         margin-right: auto;
         padding: 7.5px 7.5px 7.5px 7.5px;
+
+
+        @mixin atMobile {
+            display: block;
+            width: 100%;
+
+        }
+
+
+
         &__img {
             width: 100%;
         }
         &__title {
             margin: 5px 0 0 0;
+
+            @mixin atMobile {
+                font-size: 2rem;
+            }
+
+
         }
         &__url {
-            font-size: 0.625rem;
+            font-size: 1rem;
+            color: grey;
+
+            @mixin atMobile {
+                font-size: 1.5rem;
+            }
+
+
+
         }
     }
 }

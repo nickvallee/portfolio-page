@@ -1,8 +1,11 @@
+/*SECTION MIN_WIDTH MIXINS */
+
 @define-mixin atSmall {
     @media (min-width: 610px) {
         @mixin-content;
     }
 }
+
 @define-mixin atSmallMedium {
     @media (min-width: 900px) {
         @mixin-content;
@@ -23,5 +26,13 @@
         content: "";
         clear: both;
         display: table;
+    }
+}
+
+/*SECTION MAX_WIDTH MIXINS */
+
+@define-mixin atMobile {
+    @media (max-width: 600px) {
+        @mixin-content;
     }
 }

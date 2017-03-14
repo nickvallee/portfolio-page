@@ -12,7 +12,7 @@ var projects = [{
     "url": 'https://nickvallee.github.io/frontend-nanodegree-arcade-game/'
 
 }, {
-    "title": "Web Optimization Project",
+    "title": "Web Optimization",
     "dates": "2017",
     "description": "above 90/100 page spee on Page Speed Insights",
     "image": "./assets/images/web-op-project-ss.png",

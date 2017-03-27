@@ -10326,12 +10326,14 @@
 	    'description': 'Shows popular locations in Mile-End/Little Italy, Montreal',
 	    'image': './assets/images/neighbourhood-map-project-ss4.png',
 	    'url': 'https://github.com/nickvallee/neighbourhood-map-project'
-	}, {
-	    "title": "Web Optimization",
-	    "dates": "2017",
-	    "description": "above 90/100 page spee on Page Speed Insights",
-	    "image": "./assets/images/web-op-project-ss.png",
-	    "url": 'https://nickvallee.github.io/web-optimize-project/'
+	}];
+
+	var unusedProjects = [{
+	    'title': 'Web Optimization',
+	    'dates': '2017',
+	    'description': 'above 90/100 page spee on Page Speed Insights',
+	    'image': './assets/images/web-op-project-ss.png',
+	    'url': 'https://nickvallee.github.io/web-optimize-project/'
 	}];
 
 	exports.default = {

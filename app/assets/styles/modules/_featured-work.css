@@ -12,10 +12,10 @@
 
 .featured-work {
     width: 100%;
-    margin: 0 auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
 
 
 
@@ -24,9 +24,7 @@
         width: 275px;
         flex-direction: column;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 7.5px 7.5px 7.5px 7.5px;
+        padding: 0 0 0 0;
 
 
         @mixin atMobile {
@@ -37,7 +35,7 @@
         }
 
         &__crop {
-            width: 270px;
+            width: 275px;
             height: 150px;
             overflow: hidden;
             border-style: solid;

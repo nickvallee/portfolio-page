@@ -341,6 +341,7 @@ menu {
   }
 }.featured-work {
     width: 100%;
+    margin: 0 auto 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -368,9 +369,11 @@ menu {
     height: auto;
   }
 }.featured-work__project__crop {
-  width: 275px;
+  width: 270px;
   height: 150px;
   overflow: hidden;
+  border-style: solid;
+  border-width: .5px;
 }@media (max-width: 600px){.featured-work__project__crop{
     width: 100%;
     height: auto;

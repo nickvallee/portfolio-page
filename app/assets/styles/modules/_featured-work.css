@@ -12,6 +12,7 @@
 
 .featured-work {
     width: 100%;
+    margin: 0 auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,9 +37,11 @@
         }
 
         &__crop {
-            width: 275px;
+            width: 270px;
             height: 150px;
             overflow: hidden;
+            border-style: solid;
+            border-width: .5px;
 
             @mixin atMobile {
                 width: 100%;

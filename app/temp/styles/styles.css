@@ -394,6 +394,8 @@ menu {
 }@media (max-width: 600px){.featured-work__project__url{
     font-size: 1.5rem;
   }
+}.featured-work__project a {
+  text-decoration: none;
 }.main-content {
     max-width: 870px;
     margin-right: auto;

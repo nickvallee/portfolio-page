@@ -16,7 +16,7 @@ var projects = [{
     'dates': '2017',
     'description': 'Shows popular locations in Mile-End/Little Italy, Montreal',
     'image': './assets/images/neighbourhood-map-project-ss4.png',
-    'url': 'https://github.com/nickvallee/neighbourhood-map-project'
+    'url': 'https://nickvallee.github.io/neighbourhood-map-project/'
 }]
 
 var unusedProjects = [{

@@ -5,7 +5,7 @@
     overflow: hidden;
     width: 100%;
         @mixin atSmall {
-        margin-top: 20px;
+            margin-top: 5px;
     }
     /*TODO: top padding at largr sizes*/
 }
